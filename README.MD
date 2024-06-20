@@ -37,9 +37,9 @@ This guide outlines the steps to run a Node.js project using TypeScript, includi
     SERVER_PORT=3001
 
     POSTGRES_HOST=localhost
-    POSTGRES_DB=test_seryu_cargo
-    POSTGRES_USERNAME=postgres
-    POSTGRES_PASSWORD=postgres
+    POSTGRES_DB=your_database_name
+    POSTGRES_USERNAME=your_username_postgre
+    POSTGRES_PASSWORD=your_password_postgre
     POSTGRES_PORT=5432
     ```
 

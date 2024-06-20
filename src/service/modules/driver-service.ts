@@ -126,7 +126,7 @@ class DriverService {
       const paginateOptions : PaginationOptions = {
         data:data,
         page_size: limitSize,
-        current:page,
+        current:parseInt(page),
         total: paginate.rowCount || 0
       }
       return paginateOptions

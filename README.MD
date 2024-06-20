@@ -88,7 +88,7 @@ Below are examples of using the API with `curl`:
 **GET Driver**
 
     ```bash
-    curl -X GET localhost:3001/v1/salary/driver/list?month=4&year=2024&driver_code=&name=&status=CONFIRMED
+    curl -X GET localhost:3001/v1/salary/driver/list
     ```
 
 #### custom params

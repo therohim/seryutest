@@ -12,7 +12,14 @@ This guide outlines the steps to run a Node.js project using TypeScript, includi
 
 ## Project Installation
 
-1. Install dependencies:
+1. Clone the project repository:
+
+    ```bash
+    git clone https://github.com/therohim/seryutest.git
+    cd seryutest
+    ```
+
+2. Install dependencies:
 
     ```bash
     npm install
@@ -20,7 +27,7 @@ This guide outlines the steps to run a Node.js project using TypeScript, includi
     yarn install
     ```
 
-2. Create a `.env` file and adjust the configuration according to your environment:
+3. Create a `.env` file and adjust the configuration according to your environment:
 
     ```env
     NODE_ENV=dev

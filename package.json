@@ -1,0 +1,39 @@
+{
+  "name": "seryu-cargo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "rm -rf build/ && tsc",
+    "dev": "nodemon src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.14.5",
+    "@types/pg": "^8.11.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.37",
+    "csv-parser": "^3.0.0",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "helmet": "^7.1.0",
+    "nodemon": "^3.1.1",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^5.22.5",
+    "sequelize-typescript": "^1.1.0",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
